@@ -10,11 +10,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Direction.ctl" Type="VI" URL="../Snake/Direction.ctl"/>
-		<Item Name="Particle Test.lvclass" Type="LVClass" URL="../../tests/Particle Test/Particle Test.lvclass"/>
-		<Item Name="Particle.lvclass" Type="LVClass" URL="../Particle.lvclass"/>
-		<Item Name="Snake Test.lvclass" Type="LVClass" URL="../../tests/Snake Test/Snake Test.lvclass"/>
-		<Item Name="Snake.lvclass" Type="LVClass" URL="../Snake/Snake.lvclass"/>
+		<Item Name="Source" Type="Folder">
+			<Item Name="Particle.lvclass" Type="LVClass" URL="../Particle.lvclass"/>
+			<Item Name="Snake.lvclass" Type="LVClass" URL="../Snake/Snake.lvclass"/>
+			<Item Name="World.lvclass" Type="LVClass" URL="../World/World.lvclass"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Particle Test.lvclass" Type="LVClass" URL="../../tests/Particle Test/Particle Test.lvclass"/>
+			<Item Name="Snake Test.lvclass" Type="LVClass" URL="../../tests/Snake Test/Snake Test.lvclass"/>
+		</Item>
+		<Item Name="World Test.lvclass" Type="LVClass" URL="../../tests/World Test/World Test.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
