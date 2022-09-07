@@ -1,4 +1,4 @@
-# astemes-snake-game
+# Snake Game video support
 
 This repository contains code developed while recording the video demonstration of TDD in LabVIEW.
 The video is available on [YouTube](https://youtu.be/cgOtv9jrpvc).
